@@ -21,7 +21,7 @@ setup(
     package_dir = {'runtests': 'runtests'},
     install_requires=['pytest', 'coverage'],
     license='BSD-2-Clause',
-    packages= ['runtests', 'tests'],
+    packages= ['runtests', 'runtests.mpi', 'runtests.conftest'],
     requires=['pytest', 'coverage'],
     extras_require={'full':['mpi4py'], 'mpi':['mpi4py']}
 )
